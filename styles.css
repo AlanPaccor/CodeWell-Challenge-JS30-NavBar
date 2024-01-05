@@ -4,6 +4,19 @@ body {
     background-color: rgb(243, 237, 229);
     font-family: 'Roboto', sans-serif;
 }
+button, .sign {
+    transition: all 0.3s ease; /* You can adjust the duration and timing function as needed */
+}
+
+button:hover {
+    opacity: 0.65;
+}
+
+.sign:hover {
+    background-color: gray;
+}
+
+  
 
 /* ==================================================================NAVBAR============================================================== */
 #linksSpacing{
